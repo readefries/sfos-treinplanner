@@ -1,0 +1,367 @@
+{
+    "payload": {
+        "source": "PPV",
+        "arrivals": [
+            {
+                "origin": "Arnhem Centraal",
+                "name": "NS  6681",
+                "plannedDateTime": "2026-08-21T23:06:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:06:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "6",
+                "actualTrack": "7",
+                "product": {
+                    "number": "6681",
+                    "categoryCode": "SPR",
+                    "shortCategoryName": "NS Sprinter",
+                    "longCategoryName": "Sprinter",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "SPR",
+                "cancelled": false,
+                "messages": [
+                    {
+                        "message": "Dit is een gewijzigd aankomstspoor",
+                        "style": "INFO"
+                    }
+                ],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Den Haag Centraal",
+                "name": "NS  1185",
+                "plannedDateTime": "2026-08-21T23:07:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:07:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "4",
+                "actualTrack": "4",
+                "product": {
+                    "number": "1185",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Zwolle",
+                "name": "NS  3675",
+                "plannedDateTime": "2026-08-21T23:10:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:10:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "8",
+                "actualTrack": "8",
+                "product": {
+                    "number": "3675",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Roosendaal",
+                "name": "NS  3680",
+                "plannedDateTime": "2026-08-21T23:15:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:16:13+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "3",
+                "actualTrack": "3",
+                "product": {
+                    "number": "3680",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Eindhoven Centraal",
+                "name": "NS  1182",
+                "plannedDateTime": "2026-08-21T23:21:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:21:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "7",
+                "actualTrack": "6",
+                "product": {
+                    "number": "1182",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [
+                    {
+                        "message": "Dit is een gewijzigd aankomstspoor",
+                        "style": "INFO"
+                    }
+                ],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Arnhem Centraal",
+                "name": "NS306683",
+                "plannedDateTime": "2026-08-21T23:36:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:36:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "7",
+                "actualTrack": "7",
+                "product": {
+                    "number": "306683",
+                    "categoryCode": "SPR",
+                    "shortCategoryName": "NS Sprinter",
+                    "longCategoryName": "Sprinter",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "SPR",
+                "cancelled": false,
+                "messages": [
+                    {
+                        "message": "Vandaag afkomstig uit Nijmegen",
+                        "style": "INFO"
+                    }
+                ],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Den Haag Centraal",
+                "name": "NS  1187",
+                "plannedDateTime": "2026-08-21T23:37:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:37:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "4",
+                "actualTrack": "4",
+                "product": {
+                    "number": "1187",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Zwolle",
+                "name": "NS  3677",
+                "plannedDateTime": "2026-08-21T23:40:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:40:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "8",
+                "actualTrack": "8",
+                "product": {
+                    "number": "3677",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Vlissingen",
+                "name": "NS  3682",
+                "plannedDateTime": "2026-08-21T23:45:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:45:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "3",
+                "actualTrack": "3",
+                "product": {
+                    "number": "3682",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Eindhoven Centraal",
+                "name": "NS  1184",
+                "plannedDateTime": "2026-08-21T23:51:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:51:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "7",
+                "actualTrack": "7",
+                "product": {
+                    "number": "1184",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Dordrecht 🏳️‍🌈",
+                "name": "NS  6686",
+                "plannedDateTime": "2026-08-21T23:52:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-21T23:52:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "5",
+                "actualTrack": "5",
+                "product": {
+                    "number": "6686",
+                    "categoryCode": "SPR",
+                    "shortCategoryName": "NS Sprinter",
+                    "longCategoryName": "Sprinter",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "SPR",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Den Haag Centraal",
+                "name": "NS  1189",
+                "plannedDateTime": "2026-08-22T00:07:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-22T00:07:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "4",
+                "actualTrack": "4",
+                "product": {
+                    "number": "1189",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Zwolle",
+                "name": "NS  3679",
+                "plannedDateTime": "2026-08-22T00:10:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-22T00:10:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "8",
+                "actualTrack": "8",
+                "product": {
+                    "number": "3679",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Roosendaal",
+                "name": "NS  3684",
+                "plannedDateTime": "2026-08-22T00:15:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-22T00:15:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "3",
+                "actualTrack": "3",
+                "product": {
+                    "number": "3684",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            },
+            {
+                "origin": "Eindhoven Centraal",
+                "name": "NS  1186",
+                "plannedDateTime": "2026-08-22T00:21:00+0200",
+                "plannedTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-22T00:21:00+0200",
+                "actualTimeZoneOffset": 120,
+                "plannedTrack": "7",
+                "actualTrack": "7",
+                "product": {
+                    "number": "1186",
+                    "categoryCode": "IC",
+                    "shortCategoryName": "NS Intercity",
+                    "longCategoryName": "Intercity",
+                    "operatorName": "NS",
+                    "operatorCode": "NS",
+                    "type": "TRAIN"
+                },
+                "trainCategory": "IC",
+                "cancelled": false,
+                "messages": [],
+                "arrivalStatus": "INCOMING"
+            }
+        ]
+    }
+}

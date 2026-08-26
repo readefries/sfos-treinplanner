@@ -1,0 +1,46 @@
+# OpenRepos/sideload variant: bakes in a default API key at build time so the
+# app works without the user registering their own key first (still
+# overridable in Settings). Build with:
+#
+#   NS_API_DEFAULT_KEY=<key> sfdk qmake CONFIG+=openrepos_build
+#   sfdk make
+#   sfdk package
+#
+# (not a plain `sfdk build`, since that runs the yaml-driven qtc5 pipeline
+# without a chance to inject CONFIG+=openrepos_build or the env var - see
+# README.md for the full command sequence.) Never build this variant on
+# Jolla's Harbour build service - it has no path to inject NS_API_DEFAULT_KEY,
+# so the app would ship with an empty default key baked in as if intentional.
+# RPM package name is "treinplanner" (distinct from the Harbour package) but
+# the installed binary/desktop id stays "harbour-treinplanner" since both
+# variants share the same TARGET in harbour-treinplanner.pro - this is fine,
+# it just keeps one app identity across both builds.
+Name: treinplanner
+Summary: Plan train trips with Dutch Railways (NS) data
+Version: 0.1.0
+Release: 1
+Group: Applications/Communications
+License: MIT
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  Search NS stations and plan trips between them. This build includes a
+  shared default API key so it works out of the box; add your own free NS
+  API portal key in Settings for reliable, unshared access.
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- sailfishapp
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+- Qt5Network
+- qdeclarative5-boostable
+Requires:
+- mapplauncherd-booster-silica-qt5
+- sailfishsilica-qt5
+Files:
+- '%{_datadir}/applications/harbour-treinplanner.desktop'
+- '%{_datadir}/harbour-treinplanner'
+- '%{_datadir}/icons/hicolor/*/apps/harbour-treinplanner.png'
+- '%{_bindir}/harbour-treinplanner'

@@ -1,0 +1,4221 @@
+{
+    "source": "HARP",
+    "trips": [{
+        "idx": 0,
+        "uid": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T13:54:00+02:00|plannedArrivalTime=2026-08-26T15:27:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=2258983404",
+        "ctxRecon": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T13:54:00+02:00|plannedArrivalTime=2026-08-26T15:27:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=2258983404",
+        "sourceCtxRecon": "¶HKI¶T$A=1@O=Breda@L=1100784@a=128@$A=1@O='s-Hertogenbosch@L=1100856@a=128@$202608261354$202608261430$SPR 6646$$3$$$$$$§W$A=1@O='s-Hertogenbosch@L=1100856@a=128@$A=1@O='s-Hertogenbosch@L=1101032@a=128@$202608261430$202608261434$$$1$$$$$$§T$A=1@O='s-Hertogenbosch@L=1101032@a=128@$A=1@O=Utrecht Centraal@L=1100715@a=128@$202608261439$202608261505$IC 3550 $$1$$$$$$§W$A=1@O=Utrecht Centraal@L=1100715@a=128@$A=1@O=Utrecht Centraal@L=1101280@a=128@$202608261505$202608261509$$$1$$$$$$§T$A=1@O=Utrecht Centraal@L=1101280@a=128@$A=1@O=Hilversum Sportpark@L=1101277@a=128@$202608261511$202608261527$SPR 5750$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16465#AM2#0#RT#31#¶KCC¶#VE#0#ERG#261#HIN#0#ECK#16674|16674|16767|16767|0|0|485|16670|1|0|10|0|0|-2147483648#¶KRCC¶#VE#1#MRTF#",
+        "plannedDurationInMinutes": 93,
+        "actualDurationInMinutes": 93,
+        "transfers": 2,
+        "status": "NORMAL",
+        "legs": [{
+            "idx": "0",
+            "name": "SPR 6646",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Arnhem Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#601459#TA#0#DA#260826#1S#1101072#1T#1328#LS#1100002#LT#1534#PU#784#RT#3#CA#SPR#ZE#6646#ZB#SPR 6646#PC#3#FR#1101072#FT#1328#TO#1100002#TT#1534#",
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T13:54:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T13:54:00+0200",
+                "plannedTrack": "5",
+                "actualTrack": "4",
+                "checkinStatus": "CHECKIN",
+                "notes": []
+            },
+            "destination": {
+                "name": "'s-Hertogenbosch",
+                "rawLocationName": "'s-Hertogenbosch",
+                "lng": 5.29362,
+                "lat": 51.69048,
+                "countryCode": "NL",
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "stationCode": "HT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T14:30:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T14:30:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "exitSide": "RIGHT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "6646",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Arnhem Centraal",
+                        "shortValue": "richting Arnhem Centraal",
+                        "accessibilityValue": "richting Arnhem Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "4 tussenstops",
+                        "shortValue": "4 tussenstops",
+                        "accessibilityValue": "4 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "stops": [{
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "name": "Breda",
+                "lat": 51.5955543518066,
+                "lng": 4.78000020980835,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T13:54:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T13:54:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "4",
+                "plannedDepartureTrack": "5",
+                "plannedArrivalTrack": "5",
+                "actualArrivalTrack": "4",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400251",
+                "uicCdCode": "118400251",
+                "name": "Gilze-Rijen",
+                "lat": 51.583610534668,
+                "lng": 4.92611122131348,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedDepartureDateTime": "2026-08-26T14:02:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:02:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:02:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:02:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "4",
+                "plannedDepartureTrack": "4",
+                "plannedArrivalTrack": "4",
+                "actualArrivalTrack": "4",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400598",
+                "uicCdCode": "118400598",
+                "name": "Tilburg Reeshof",
+                "lat": 51.5736122131348,
+                "lng": 4.99444437026978,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 2,
+                "plannedDepartureDateTime": "2026-08-26T14:06:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:06:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:06:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:06:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400594",
+                "uicCdCode": "118400594",
+                "name": "Tilburg Universiteit",
+                "lat": 51.564985,
+                "lng": 5.051778,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 3,
+                "plannedDepartureDateTime": "2026-08-26T14:10:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:10:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:10:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:10:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400597",
+                "uicCdCode": "118400597",
+                "name": "Tilburg",
+                "lat": 51.5605545043945,
+                "lng": 5.08361101150513,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 4,
+                "plannedDepartureDateTime": "2026-08-26T14:14:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:14:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:13:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:13:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "name": "'s-Hertogenbosch",
+                "lat": 51.69048,
+                "lng": 5.29362,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 5,
+                "plannedArrivalDateTime": "2026-08-26T14:30:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:30:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 2,
+            "punctuality": 92.3,
+            "crossPlatformTransfer": false,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#601459#TA#0#DA#260826#1S#1101072#1T#1328#LS#1100002#LT#1534#PU#784#RT#3#CA#SPR#ZE#6646#ZB#SPR 6646#PC#3#FR#1101072#FT#1328#TO#1100002#TT#1534#&train=6646&datetime=2026-08-26T13:54:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 36,
+            "actualDurationInMinutes": 36,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "36 min.",
+                "accessibilityValue": "36 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "transferTimeToNextLeg": 4,
+            "distanceInMeters": 41871
+        }, {
+            "idx": "1",
+            "name": "IC 3550",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Utrecht Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#3741#TA#11#DA#260826#1S#1100958#1T#1333#LS#1100715#LT#1505#PU#784#RT#1#CA#IC#ZE#3550#ZB#IC 3550 #PC#1#FR#1100958#FT#1333#TO#1100715#TT#1505#",
+            "origin": {
+                "name": "'s-Hertogenbosch",
+                "rawLocationName": "'s-Hertogenbosch",
+                "lng": 5.29362,
+                "lat": 51.69048,
+                "countryCode": "NL",
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "stationCode": "HT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T14:39:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T14:39:00+0200",
+                "plannedTrack": "3",
+                "actualTrack": "3",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Utrecht Centraal",
+                "rawLocationName": "Utrecht Centraal",
+                "lng": 5.11027765274048,
+                "lat": 52.0888900756836,
+                "countryCode": "NL",
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "stationCode": "UT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:05:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:05:00+0200",
+                "plannedTrack": "7",
+                "actualTrack": "7",
+                "exitSide": "RIGHT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "3550",
+                "categoryCode": "IC",
+                "shortCategoryName": "IC",
+                "longCategoryName": "Intercity",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Intercity",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Intercity",
+                        "shortValue": "NS Intercity",
+                        "accessibilityValue": "NS Intercity",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Utrecht Centraal",
+                        "shortValue": "richting Utrecht Centraal",
+                        "accessibilityValue": "richting Utrecht Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "Geen tussenstops",
+                        "shortValue": "Geen tussenstops",
+                        "accessibilityValue": "Geen tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "9 min. overstaptijd",
+                "accessibilityMessage": "9 minuten overstaptijd",
+                "type": "TRANSFER_TIME",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "name": "'s-Hertogenbosch",
+                "lat": 51.69048,
+                "lng": 5.29362,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T14:39:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:39:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "3",
+                "plannedDepartureTrack": "3",
+                "plannedArrivalTrack": "3",
+                "actualArrivalTrack": "3",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "name": "Utrecht Centraal",
+                "lat": 52.0888900756836,
+                "lng": 5.11027765274048,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 8,
+                "plannedArrivalDateTime": "2026-08-26T15:05:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:05:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "7",
+                "plannedDepartureTrack": "7",
+                "plannedArrivalTrack": "7",
+                "actualArrivalTrack": "7",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "punctuality": 100.0,
+            "crossPlatformTransfer": false,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#3741#TA#11#DA#260826#1S#1100958#1T#1333#LS#1100715#LT#1505#PU#784#RT#1#CA#IC#ZE#3550#ZB#IC 3550 #PC#1#FR#1100958#FT#1333#TO#1100715#TT#1505#&train=3550&datetime=2026-08-26T14:39:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 26,
+            "actualDurationInMinutes": 26,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "26 min.",
+                "accessibilityValue": "26 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "transferTimeToNextLeg": 4,
+            "distanceInMeters": 47266
+        }, {
+            "idx": "2",
+            "name": "SPR 5750",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Leiden Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#6681#TA#1#DA#260826#1S#1101280#1T#1511#LS#1100997#LT#1640#PU#784#RT#1#CA#SPR#ZE#5750#ZB#SPR 5750#PC#3#FR#1101280#FT#1511#TO#1100997#TT#1640#",
+            "origin": {
+                "name": "Utrecht Centraal",
+                "rawLocationName": "Utrecht Centraal",
+                "lng": 5.11027765274048,
+                "lat": 52.0888900756836,
+                "countryCode": "NL",
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "stationCode": "UT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:11:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:11:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:27:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:27:00+0200",
+                "plannedTrack": "2",
+                "actualTrack": "2",
+                "exitSide": "RIGHT",
+                "checkinStatus": "CHECKOUT",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "5750",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Leiden Centraal via Weesp",
+                        "shortValue": "richting Leiden Centraal via Weesp",
+                        "accessibilityValue": "richting Leiden Centraal via Weesp",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "2 tussenstops",
+                        "shortValue": "2 tussenstops",
+                        "accessibilityValue": "2 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "6 min. overstaptijd",
+                "accessibilityMessage": "6 minuten overstaptijd",
+                "type": "TRANSFER_TIME",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "name": "Utrecht Centraal",
+                "lat": 52.0888900756836,
+                "lng": 5.11027765274048,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T15:11:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:11:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400620",
+                "uicCdCode": "118400620",
+                "name": "Utrecht Overvecht",
+                "lat": 52.1100006103516,
+                "lng": 5.12472200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedDepartureDateTime": "2026-08-26T15:15:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:15:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:15:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:15:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400327",
+                "uicCdCode": "118400327",
+                "name": "Hollandsche Rading",
+                "lat": 52.1777763366699,
+                "lng": 5.17916679382324,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 2,
+                "plannedDepartureDateTime": "2026-08-26T15:23:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:23:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:23:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:23:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "name": "Hilversum Sportpark",
+                "lat": 52.2161102294922,
+                "lng": 5.18722200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 3,
+                "plannedArrivalDateTime": "2026-08-26T15:27:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:27:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 4,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#6681#TA#1#DA#260826#1S#1101280#1T#1511#LS#1100997#LT#1640#PU#784#RT#1#CA#SPR#ZE#5750#ZB#SPR 5750#PC#3#FR#1101280#FT#1511#TO#1100997#TT#1640#&train=5750&datetime=2026-08-26T15:11:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 16,
+            "actualDurationInMinutes": 16,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "16 min.",
+                "accessibilityValue": "16 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "recognizableDestination": "Weesp",
+            "distanceInMeters": 15236
+        }],
+        "checksum": "786968aa_3",
+        "crowdForecast": "LOW",
+        "punctuality": 92.3,
+        "optimal": false,
+        "fareRoute": {
+            "routeId": "=JRsVmBGFd7R+qg==",
+            "origin": {
+                "varCode": 131,
+                "name": "Breda"
+            },
+            "destination": {
+                "varCode": 570,
+                "name": "Hilversum Sportpark"
+            }
+        },
+        "fares": [{
+            "priceInCents": 4302,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 3442,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 1912,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 2581,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 1434,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 8604,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 4780,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 6884,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 3824,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 5162,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 2868,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 67990,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 40000,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 815880,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 479940,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }],
+        "fareLegs": [{
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION"
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION"
+            },
+            "operator": "NS",
+            "productTypes": ["TRAIN"],
+            "fares": [{
+                "priceInCents": 2390,
+                "priceInCentsExcludingSupplement": 2390,
+                "supplementInCents": 0,
+                "buyableTicketSupplementPriceInCents": 0,
+                "product": "OVCHIPKAART_ENKELE_REIS",
+                "travelClass": "SECOND_CLASS",
+                "discountType": "NO_DISCOUNT"
+            }],
+            "travelDate": "2026-08-26"
+        }],
+        "productFare": {
+            "priceInCents": 2390,
+            "priceInCentsExcludingSupplement": 2390,
+            "buyableTicketPriceInCents": 2390,
+            "buyableTicketPriceInCentsExcludingSupplement": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        },
+        "fareOptions": {
+            "isInternationalBookable": false,
+            "isInternational": false,
+            "isEticketBuyable": true,
+            "isPossibleWithOvChipkaart": true,
+            "isTotalPriceUnknown": false
+        },
+        "type": "NS",
+        "shareUrl": {
+            "uri": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400131%7CrequestedFromStation%3D8400131%7CtoStation%3D8400570%7CrequestedToStation%3D8400570%7CplannedFromTime%3D2026-08-26T13%3A54%3A00%2B02%3A00%7CplannedArrivalTime%3D2026-08-26T15%3A27%3A00%2B02%3A00%7CexcludeHighSpeedTrains%3Dfalse%7CshowLiftInfo%3Dfalse%7CsearchForAccessibleTrip%3Dfalse%7ClocalTrainsOnly%3Dfalse%7CdisabledTransportModalities%3DBUS%2CFERRY%2CTRAM%2CMETRO%7CtravelAssistance%3Dfalse%7CtripSummaryHash%3D2258983404"
+        },
+        "realtime": true,
+        "routeId": "=JRsVmBGFd7R+qg==",
+        "modalityListItems": [{
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "4",
+            "accessibilityName": "Sprinter"
+        }, {
+            "name": "Intercity",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "3",
+            "accessibilityName": "Intercity"
+        }, {
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "1",
+            "accessibilityName": "Sprinter"
+        }]
+    }, {
+        "idx": 1,
+        "uid": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:14:00+02:00|plannedArrivalTime=2026-08-26T15:50:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=2240311198",
+        "ctxRecon": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:14:00+02:00|plannedArrivalTime=2026-08-26T15:50:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=2240311198",
+        "sourceCtxRecon": "¶HKI¶T$A=1@O=Breda@L=1100828@a=128@$A=1@O=Hilversum@L=1100951@a=128@$202608261414$202608261536$ICD 1855$$3$$$$$$§T$A=1@O=Hilversum@L=1100951@a=128@$A=1@O=Hilversum Sportpark@L=1101274@a=128@$202608261548$202608261550$SPR 4953$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16465#AM2#0#RT#31#¶KCC¶#VE#0#ERG#258#HIN#0#ECK#16694|16694|16790|16790|0|0|485|16675|2|0|2|0|0|-2147483648#¶KRCC¶#VE#1#MRTF#",
+        "plannedDurationInMinutes": 96,
+        "actualDurationInMinutes": 96,
+        "transfers": 1,
+        "status": "NORMAL",
+        "legs": [{
+            "idx": "0",
+            "name": "ICD 1855",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Amersfoort Schothorst",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#602586#TA#0#DA#260826#1S#1100942#1T#1414#LS#1100687#LT#1554#PU#784#RT#3#CA#ICD#ZE#1855#ZB#ICD 1855#PC#1#FR#1100942#FT#1414#TO#1100687#TT#1554#",
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T14:14:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T14:14:00+0200",
+                "plannedTrack": "7",
+                "actualTrack": "6",
+                "checkinStatus": "CHECKIN",
+                "notes": []
+            },
+            "destination": {
+                "name": "Hilversum",
+                "rawLocationName": "Hilversum",
+                "lng": 5.18194437026978,
+                "lat": 52.2258338928223,
+                "countryCode": "NL",
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "stationCode": "HVS",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:36:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:36:00+0200",
+                "plannedTrack": "2",
+                "actualTrack": "2",
+                "exitSide": "LEFT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "1855",
+                "categoryCode": "ICD",
+                "shortCategoryName": "ICD",
+                "longCategoryName": "Intercity direct",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Intercity direct",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Intercity direct",
+                        "shortValue": "NS Intercity direct",
+                        "accessibilityValue": "NS Intercity direct",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Amersfoort Schothorst via Schiphol Airport",
+                        "shortValue": "richting Amersfoort Schothorst via Schiphol Airport",
+                        "accessibilityValue": "richting Amersfoort Schothorst via Schiphol Airport",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "4 tussenstops",
+                        "shortValue": "4 tussenstops",
+                        "accessibilityValue": "4 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "Toeslag Rotterdam Centraal - Schiphol Airport",
+                        "shortValue": "Toeslag",
+                        "accessibilityValue": "Toeslag Rotterdam Centraal - Schiphol Airport",
+                        "key": "PRODUCT_SUPPLEMENT",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-warning-contrast",
+                            "type": "warning"
+                        }
+                    }]
+                ]
+            },
+            "notes": [{
+                "value": "Toeslag",
+                "shortValue": "Toeslag",
+                "accessibilityValue": "Toeslag",
+                "key": "ZA",
+                "noteType": "ATTRIBUTE",
+                "isPresentationRequired": true
+            }, {
+                "value": "320",
+                "key": "T",
+                "noteType": "TICKET",
+                "routeIdxFrom": 6,
+                "routeIdxTo": 8,
+                "link": {
+                    "uri": "/api/v1/catalogue/intercity-direct"
+                },
+                "isPresentationRequired": false
+            }],
+            "stops": [{
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "name": "Breda",
+                "lat": 51.5955543518066,
+                "lng": 4.78000020980835,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T14:14:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:14:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "6",
+                "plannedDepartureTrack": "7",
+                "plannedArrivalTrack": "7",
+                "actualArrivalTrack": "6",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400530",
+                "uicCdCode": "118400530",
+                "name": "Rotterdam Centraal",
+                "lat": 51.9249992370605,
+                "lng": 4.46888875961304,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 6,
+                "plannedDepartureDateTime": "2026-08-26T14:41:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:41:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:37:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:37:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "12",
+                "plannedDepartureTrack": "12",
+                "plannedArrivalTrack": "12",
+                "actualArrivalTrack": "12",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400561",
+                "uicCdCode": "118400561",
+                "name": "Schiphol Airport",
+                "lat": 52.3094444274902,
+                "lng": 4.76194429397583,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 8,
+                "plannedDepartureDateTime": "2026-08-26T15:08:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:08:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:07:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:07:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1-2",
+                "plannedDepartureTrack": "1-2",
+                "plannedArrivalTrack": "1-2",
+                "actualArrivalTrack": "1-2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400061",
+                "uicCdCode": "118400061",
+                "name": "Amsterdam Zuid",
+                "lat": 52.338889,
+                "lng": 4.872356,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 9,
+                "plannedDepartureDateTime": "2026-08-26T15:16:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:16:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:14:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:14:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400194",
+                "uicCdCode": "118400194",
+                "name": "Duivendrecht",
+                "lat": 52.3233337402344,
+                "lng": 4.93638896942139,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 11,
+                "plannedDepartureDateTime": "2026-08-26T15:21:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:21:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:21:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:21:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "name": "Hilversum",
+                "lat": 52.2258338928223,
+                "lng": 5.18194437026978,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 17,
+                "plannedArrivalDateTime": "2026-08-26T15:36:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:36:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 16,
+            "crossPlatformTransfer": true,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#602586#TA#0#DA#260826#1S#1100942#1T#1414#LS#1100687#LT#1554#PU#784#RT#3#CA#ICD#ZE#1855#ZB#ICD 1855#PC#1#FR#1100942#FT#1414#TO#1100687#TT#1554#&train=1855&datetime=2026-08-26T14:14:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 82,
+            "actualDurationInMinutes": 82,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "1:22 u.",
+                "accessibilityValue": "1 uur en 22 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "recognizableDestination": "Schiphol Airport",
+            "distanceInMeters": 128175,
+            "ticketActions": [{
+                "type": "SUPPLEMENT",
+                "fromUicCode": "8400530",
+                "toUicCode": "8400561"
+            }]
+        }, {
+            "idx": "1",
+            "name": "SPR 4953",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Utrecht Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#501749#TA#0#DA#260826#1S#1101113#1T#1521#LS#1101280#LT#1605#PU#784#RT#1#CA#SPR#ZE#4953#ZB#SPR 4953#PC#3#FR#1101113#FT#1521#TO#1101280#TT#1605#",
+            "origin": {
+                "name": "Hilversum",
+                "rawLocationName": "Hilversum",
+                "lng": 5.18194437026978,
+                "lat": 52.2258338928223,
+                "countryCode": "NL",
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "stationCode": "HVS",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:48:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:48:00+0200",
+                "plannedTrack": "2",
+                "actualTrack": "2",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:50:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:50:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "exitSide": "RIGHT",
+                "checkinStatus": "CHECKOUT",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "4953",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Utrecht Centraal",
+                        "shortValue": "richting Utrecht Centraal",
+                        "accessibilityValue": "richting Utrecht Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "Geen tussenstops",
+                        "shortValue": "Geen tussenstops",
+                        "accessibilityValue": "Geen tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "Overstap op zelfde perron",
+                "accessibilityMessage": "Overstap op zelfde perron",
+                "type": "CROSS_PLATFORM",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "name": "Hilversum",
+                "lat": 52.2258338928223,
+                "lng": 5.18194437026978,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T15:48:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:48:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "name": "Hilversum Sportpark",
+                "lat": 52.2161102294922,
+                "lng": 5.18722200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedArrivalDateTime": "2026-08-26T15:50:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:50:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "MEDIUM",
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#501749#TA#0#DA#260826#1S#1101113#1T#1521#LS#1101280#LT#1605#PU#784#RT#1#CA#SPR#ZE#4953#ZB#SPR 4953#PC#3#FR#1101113#FT#1521#TO#1101280#TT#1605#&train=4953&datetime=2026-08-26T15:48:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 2,
+            "actualDurationInMinutes": 2,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "2 min.",
+                "accessibilityValue": "2 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "distanceInMeters": 1188
+        }],
+        "checksum": "f621cf46_3",
+        "crowdForecast": "MEDIUM",
+        "optimal": false,
+        "fareRoute": {
+            "routeId": "=JRsVmBGFd7J+rw==",
+            "origin": {
+                "varCode": 131,
+                "name": "Breda"
+            },
+            "destination": {
+                "varCode": 570,
+                "name": "Hilversum Sportpark"
+            }
+        },
+        "fares": [{
+            "priceInCents": 4302,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 3442,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 1912,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 2581,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 1434,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 8604,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 4780,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 6884,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 3824,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 5162,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 2868,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 67990,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 40000,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 815880,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 479940,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }],
+        "fareLegs": [{
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION"
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION"
+            },
+            "operator": "NS",
+            "productTypes": ["TRAIN"],
+            "fares": [{
+                "priceInCents": 2390,
+                "priceInCentsExcludingSupplement": 2390,
+                "supplementInCents": 0,
+                "buyableTicketSupplementPriceInCents": 0,
+                "product": "OVCHIPKAART_ENKELE_REIS",
+                "travelClass": "SECOND_CLASS",
+                "discountType": "NO_DISCOUNT"
+            }],
+            "travelDate": "2026-08-26"
+        }],
+        "productFare": {
+            "priceInCents": 2710,
+            "priceInCentsExcludingSupplement": 2390,
+            "supplementInCents": 320,
+            "buyableTicketPriceInCents": 2710,
+            "buyableTicketPriceInCentsExcludingSupplement": 2390,
+            "buyableTicketSupplementPriceInCents": 320,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        },
+        "fareOptions": {
+            "isInternationalBookable": false,
+            "isInternational": false,
+            "isEticketBuyable": true,
+            "isPossibleWithOvChipkaart": true,
+            "isTotalPriceUnknown": false,
+            "supplementsBasedOnSelectedFare": [{
+                "supplementPriceInCents": 320,
+                "fromUICCode": "8400530",
+                "toUICCode": "8400561",
+                "link": {
+                    "uri": "/api/v1/catalogue/intercity-direct"
+                },
+                "supplementType": "ICD"
+            }]
+        },
+        "type": "NS",
+        "shareUrl": {
+            "uri": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400131%7CrequestedFromStation%3D8400131%7CtoStation%3D8400570%7CrequestedToStation%3D8400570%7CplannedFromTime%3D2026-08-26T14%3A14%3A00%2B02%3A00%7CplannedArrivalTime%3D2026-08-26T15%3A50%3A00%2B02%3A00%7CexcludeHighSpeedTrains%3Dfalse%7CshowLiftInfo%3Dfalse%7CsearchForAccessibleTrip%3Dfalse%7ClocalTrainsOnly%3Dfalse%7CdisabledTransportModalities%3DBUS%2CFERRY%2CTRAM%2CMETRO%7CtravelAssistance%3Dfalse%7CtripSummaryHash%3D2240311198"
+        },
+        "realtime": true,
+        "routeId": "=JRsVmBGFd7J+rw==",
+        "modalityListItems": [{
+            "name": "Intercity direct",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "6",
+            "accessibilityName": "Intercity direct"
+        }, {
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "2",
+            "accessibilityName": "Sprinter"
+        }],
+        "labelListItems": [{
+            "label": "€ 3,20 toeslag",
+            "stickerType": "info"
+        }]
+    }, {
+        "idx": 2,
+        "uid": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:24:00+02:00|plannedArrivalTime=2026-08-26T15:57:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=1327564811",
+        "ctxRecon": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:24:00+02:00|plannedArrivalTime=2026-08-26T15:57:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=1327564811",
+        "sourceCtxRecon": "¶HKI¶T$A=1@O=Breda@L=1100784@a=128@$A=1@O='s-Hertogenbosch@L=1100856@a=128@$202608261424$202608261500$SPR 6648$$3$$$$$$§W$A=1@O='s-Hertogenbosch@L=1100856@a=128@$A=1@O='s-Hertogenbosch@L=1101032@a=128@$202608261500$202608261504$$$1$$$$$$§T$A=1@O='s-Hertogenbosch@L=1101032@a=128@$A=1@O=Utrecht Centraal@L=1100715@a=128@$202608261509$202608261535$IC 3552 $$1$$$$$$§W$A=1@O=Utrecht Centraal@L=1100715@a=128@$A=1@O=Utrecht Centraal@L=1101280@a=128@$202608261535$202608261539$$$1$$$$$$§T$A=1@O=Utrecht Centraal@L=1101280@a=128@$A=1@O=Hilversum Sportpark@L=1101277@a=128@$202608261541$202608261557$SPR 5752$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16465#AM2#0#RT#31#¶KCC¶#VE#0#ERG#261#HIN#0#ECK#16704|16704|16797|16797|0|0|485|16695|3|0|10|0|0|-2147483648#¶KRCC¶#VE#1#MRTF#",
+        "plannedDurationInMinutes": 93,
+        "actualDurationInMinutes": 93,
+        "transfers": 2,
+        "status": "NORMAL",
+        "legs": [{
+            "idx": "0",
+            "name": "SPR 6648",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Arnhem Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#602625#TA#0#DA#260826#1S#1101072#1T#1358#LS#1100002#LT#1604#PU#784#RT#3#CA#SPR#ZE#6648#ZB#SPR 6648#PC#3#FR#1101072#FT#1358#TO#1100002#TT#1604#",
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T14:24:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T14:24:00+0200",
+                "plannedTrack": "5",
+                "actualTrack": "4",
+                "checkinStatus": "CHECKIN",
+                "notes": []
+            },
+            "destination": {
+                "name": "'s-Hertogenbosch",
+                "rawLocationName": "'s-Hertogenbosch",
+                "lng": 5.29362,
+                "lat": 51.69048,
+                "countryCode": "NL",
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "stationCode": "HT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:00:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:00:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "exitSide": "RIGHT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "6648",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Arnhem Centraal",
+                        "shortValue": "richting Arnhem Centraal",
+                        "accessibilityValue": "richting Arnhem Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "4 tussenstops",
+                        "shortValue": "4 tussenstops",
+                        "accessibilityValue": "4 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "stops": [{
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "name": "Breda",
+                "lat": 51.5955543518066,
+                "lng": 4.78000020980835,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T14:24:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:24:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "4",
+                "plannedDepartureTrack": "5",
+                "plannedArrivalTrack": "5",
+                "actualArrivalTrack": "4",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400251",
+                "uicCdCode": "118400251",
+                "name": "Gilze-Rijen",
+                "lat": 51.583610534668,
+                "lng": 4.92611122131348,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedDepartureDateTime": "2026-08-26T14:32:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:32:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:32:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:32:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "4",
+                "plannedDepartureTrack": "4",
+                "plannedArrivalTrack": "4",
+                "actualArrivalTrack": "4",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400598",
+                "uicCdCode": "118400598",
+                "name": "Tilburg Reeshof",
+                "lat": 51.5736122131348,
+                "lng": 4.99444437026978,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 2,
+                "plannedDepartureDateTime": "2026-08-26T14:36:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:36:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:36:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:36:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400594",
+                "uicCdCode": "118400594",
+                "name": "Tilburg Universiteit",
+                "lat": 51.564985,
+                "lng": 5.051778,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 3,
+                "plannedDepartureDateTime": "2026-08-26T14:40:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:40:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:40:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:40:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400597",
+                "uicCdCode": "118400597",
+                "name": "Tilburg",
+                "lat": 51.5605545043945,
+                "lng": 5.08361101150513,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 4,
+                "plannedDepartureDateTime": "2026-08-26T14:44:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:44:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T14:43:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T14:43:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "name": "'s-Hertogenbosch",
+                "lat": 51.69048,
+                "lng": 5.29362,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 5,
+                "plannedArrivalDateTime": "2026-08-26T15:00:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:00:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 4,
+            "punctuality": 91.7,
+            "crossPlatformTransfer": false,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#602625#TA#0#DA#260826#1S#1101072#1T#1358#LS#1100002#LT#1604#PU#784#RT#3#CA#SPR#ZE#6648#ZB#SPR 6648#PC#3#FR#1101072#FT#1358#TO#1100002#TT#1604#&train=6648&datetime=2026-08-26T14:24:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 36,
+            "actualDurationInMinutes": 36,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "36 min.",
+                "accessibilityValue": "36 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "transferTimeToNextLeg": 4,
+            "distanceInMeters": 41871
+        }, {
+            "idx": "1",
+            "name": "IC 3552",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Utrecht Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#499600#TA#0#DA#260826#1S#1100958#1T#1403#LS#1100715#LT#1535#PU#784#RT#1#CA#IC#ZE#3552#ZB#IC 3552 #PC#1#FR#1100958#FT#1403#TO#1100715#TT#1535#",
+            "origin": {
+                "name": "'s-Hertogenbosch",
+                "rawLocationName": "'s-Hertogenbosch",
+                "lng": 5.29362,
+                "lat": 51.69048,
+                "countryCode": "NL",
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "stationCode": "HT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:09:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:09:00+0200",
+                "plannedTrack": "3",
+                "actualTrack": "3",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Utrecht Centraal",
+                "rawLocationName": "Utrecht Centraal",
+                "lng": 5.11027765274048,
+                "lat": 52.0888900756836,
+                "countryCode": "NL",
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "stationCode": "UT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:35:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:35:00+0200",
+                "plannedTrack": "7",
+                "actualTrack": "7",
+                "exitSide": "RIGHT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "3552",
+                "categoryCode": "IC",
+                "shortCategoryName": "IC",
+                "longCategoryName": "Intercity",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Intercity",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Intercity",
+                        "shortValue": "NS Intercity",
+                        "accessibilityValue": "NS Intercity",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Utrecht Centraal",
+                        "shortValue": "richting Utrecht Centraal",
+                        "accessibilityValue": "richting Utrecht Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "Geen tussenstops",
+                        "shortValue": "Geen tussenstops",
+                        "accessibilityValue": "Geen tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "9 min. overstaptijd",
+                "accessibilityMessage": "9 minuten overstaptijd",
+                "type": "TRANSFER_TIME",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "name": "'s-Hertogenbosch",
+                "lat": 51.69048,
+                "lng": 5.29362,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T15:09:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:09:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "3",
+                "plannedDepartureTrack": "3",
+                "plannedArrivalTrack": "3",
+                "actualArrivalTrack": "3",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "name": "Utrecht Centraal",
+                "lat": 52.0888900756836,
+                "lng": 5.11027765274048,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 8,
+                "plannedArrivalDateTime": "2026-08-26T15:35:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:35:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "7",
+                "plannedDepartureTrack": "7",
+                "plannedArrivalTrack": "7",
+                "actualArrivalTrack": "7",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 0,
+            "punctuality": 100.0,
+            "crossPlatformTransfer": false,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#499600#TA#0#DA#260826#1S#1100958#1T#1403#LS#1100715#LT#1535#PU#784#RT#1#CA#IC#ZE#3552#ZB#IC 3552 #PC#1#FR#1100958#FT#1403#TO#1100715#TT#1535#&train=3552&datetime=2026-08-26T15:09:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 26,
+            "actualDurationInMinutes": 26,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "26 min.",
+                "accessibilityValue": "26 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "transferTimeToNextLeg": 4,
+            "distanceInMeters": 47266
+        }, {
+            "idx": "2",
+            "name": "SPR 5752",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Leiden Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#6687#TA#0#DA#260826#1S#1101280#1T#1541#LS#1100997#LT#1710#PU#784#RT#1#CA#SPR#ZE#5752#ZB#SPR 5752#PC#3#FR#1101280#FT#1541#TO#1100997#TT#1710#",
+            "origin": {
+                "name": "Utrecht Centraal",
+                "rawLocationName": "Utrecht Centraal",
+                "lng": 5.11027765274048,
+                "lat": 52.0888900756836,
+                "countryCode": "NL",
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "stationCode": "UT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:41:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:41:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:57:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:57:00+0200",
+                "plannedTrack": "2",
+                "actualTrack": "2",
+                "exitSide": "RIGHT",
+                "checkinStatus": "CHECKOUT",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "5752",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Leiden Centraal via Weesp",
+                        "shortValue": "richting Leiden Centraal via Weesp",
+                        "accessibilityValue": "richting Leiden Centraal via Weesp",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "2 tussenstops",
+                        "shortValue": "2 tussenstops",
+                        "accessibilityValue": "2 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "6 min. overstaptijd",
+                "accessibilityMessage": "6 minuten overstaptijd",
+                "type": "TRANSFER_TIME",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "name": "Utrecht Centraal",
+                "lat": 52.0888900756836,
+                "lng": 5.11027765274048,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T15:41:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:41:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400620",
+                "uicCdCode": "118400620",
+                "name": "Utrecht Overvecht",
+                "lat": 52.1100006103516,
+                "lng": 5.12472200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedDepartureDateTime": "2026-08-26T15:45:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:45:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:45:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:45:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400327",
+                "uicCdCode": "118400327",
+                "name": "Hollandsche Rading",
+                "lat": 52.1777763366699,
+                "lng": 5.17916679382324,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 2,
+                "plannedDepartureDateTime": "2026-08-26T15:53:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:53:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:53:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:53:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "name": "Hilversum Sportpark",
+                "lat": 52.2161102294922,
+                "lng": 5.18722200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 3,
+                "plannedArrivalDateTime": "2026-08-26T15:57:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:57:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "HIGH",
+            "bicycleSpotCount": 2,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#6687#TA#0#DA#260826#1S#1101280#1T#1541#LS#1100997#LT#1710#PU#784#RT#1#CA#SPR#ZE#5752#ZB#SPR 5752#PC#3#FR#1101280#FT#1541#TO#1100997#TT#1710#&train=5752&datetime=2026-08-26T15:41:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 16,
+            "actualDurationInMinutes": 16,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "16 min.",
+                "accessibilityValue": "16 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "recognizableDestination": "Weesp",
+            "distanceInMeters": 15236
+        }],
+        "checksum": "1c208e09_3",
+        "crowdForecast": "HIGH",
+        "punctuality": 91.7,
+        "optimal": false,
+        "fareRoute": {
+            "routeId": "=JRsVmBGFd7F+qg==",
+            "origin": {
+                "varCode": 131,
+                "name": "Breda"
+            },
+            "destination": {
+                "varCode": 570,
+                "name": "Hilversum Sportpark"
+            }
+        },
+        "fares": [{
+            "priceInCents": 4302,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 3442,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 1912,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 2581,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 1434,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 8604,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 4780,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 6884,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 3824,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 5162,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 2868,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 67990,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 40000,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 815880,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 479940,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }],
+        "fareLegs": [{
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION"
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION"
+            },
+            "operator": "NS",
+            "productTypes": ["TRAIN"],
+            "fares": [{
+                "priceInCents": 2390,
+                "priceInCentsExcludingSupplement": 2390,
+                "supplementInCents": 0,
+                "buyableTicketSupplementPriceInCents": 0,
+                "product": "OVCHIPKAART_ENKELE_REIS",
+                "travelClass": "SECOND_CLASS",
+                "discountType": "NO_DISCOUNT"
+            }],
+            "travelDate": "2026-08-26"
+        }],
+        "productFare": {
+            "priceInCents": 2390,
+            "priceInCentsExcludingSupplement": 2390,
+            "buyableTicketPriceInCents": 2390,
+            "buyableTicketPriceInCentsExcludingSupplement": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        },
+        "fareOptions": {
+            "isInternationalBookable": false,
+            "isInternational": false,
+            "isEticketBuyable": true,
+            "isPossibleWithOvChipkaart": true,
+            "isTotalPriceUnknown": false
+        },
+        "type": "NS",
+        "shareUrl": {
+            "uri": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400131%7CrequestedFromStation%3D8400131%7CtoStation%3D8400570%7CrequestedToStation%3D8400570%7CplannedFromTime%3D2026-08-26T14%3A24%3A00%2B02%3A00%7CplannedArrivalTime%3D2026-08-26T15%3A57%3A00%2B02%3A00%7CexcludeHighSpeedTrains%3Dfalse%7CshowLiftInfo%3Dfalse%7CsearchForAccessibleTrip%3Dfalse%7ClocalTrainsOnly%3Dfalse%7CdisabledTransportModalities%3DBUS%2CFERRY%2CTRAM%2CMETRO%7CtravelAssistance%3Dfalse%7CtripSummaryHash%3D1327564811"
+        },
+        "realtime": true,
+        "routeId": "=JRsVmBGFd7F+qg==",
+        "modalityListItems": [{
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "4",
+            "accessibilityName": "Sprinter"
+        }, {
+            "name": "Intercity",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "3",
+            "accessibilityName": "Intercity"
+        }, {
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "1",
+            "accessibilityName": "Sprinter"
+        }]
+    }, {
+        "idx": 3,
+        "uid": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:44:00+02:00|plannedArrivalTime=2026-08-26T16:20:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=2761210395",
+        "ctxRecon": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:44:00+02:00|plannedArrivalTime=2026-08-26T16:20:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=2761210395",
+        "sourceCtxRecon": "¶HKI¶T$A=1@O=Breda@L=1100942@a=128@$A=1@O=Hilversum@L=1100951@a=128@$202608261444$202608261606$ICD 1857$$1$$$$$$§T$A=1@O=Hilversum@L=1100951@a=128@$A=1@O=Hilversum Sportpark@L=1101274@a=128@$202608261618$202608261620$SPR 4955$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16465#AM2#0#RT#31#¶KCC¶#VE#0#ERG#258#HIN#0#ECK#16724|16724|16820|16820|0|0|485|16705|4|0|2|0|0|-2147483648#¶KRCC¶#VE#1#MRTF#",
+        "plannedDurationInMinutes": 96,
+        "actualDurationInMinutes": 96,
+        "transfers": 1,
+        "status": "NORMAL",
+        "legs": [{
+            "idx": "0",
+            "name": "ICD 1857",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Amersfoort Schothorst",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#495463#TA#1#DA#260826#1S#1100942#1T#1444#LS#1100687#LT#1624#PU#784#RT#1#CA#ICD#ZE#1857#ZB#ICD 1857#PC#1#FR#1100942#FT#1444#TO#1100687#TT#1624#",
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T14:44:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T14:44:00+0200",
+                "plannedTrack": "7",
+                "actualTrack": "7",
+                "checkinStatus": "CHECKIN",
+                "notes": []
+            },
+            "destination": {
+                "name": "Hilversum",
+                "rawLocationName": "Hilversum",
+                "lng": 5.18194437026978,
+                "lat": 52.2258338928223,
+                "countryCode": "NL",
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "stationCode": "HVS",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T16:06:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T16:06:00+0200",
+                "plannedTrack": "2",
+                "actualTrack": "2",
+                "exitSide": "LEFT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "1857",
+                "categoryCode": "ICD",
+                "shortCategoryName": "ICD",
+                "longCategoryName": "Intercity direct",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Intercity direct",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Intercity direct",
+                        "shortValue": "NS Intercity direct",
+                        "accessibilityValue": "NS Intercity direct",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Amersfoort Schothorst via Schiphol Airport",
+                        "shortValue": "richting Amersfoort Schothorst via Schiphol Airport",
+                        "accessibilityValue": "richting Amersfoort Schothorst via Schiphol Airport",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "4 tussenstops",
+                        "shortValue": "4 tussenstops",
+                        "accessibilityValue": "4 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "Toeslag Rotterdam Centraal - Schiphol Airport",
+                        "shortValue": "Toeslag",
+                        "accessibilityValue": "Toeslag Rotterdam Centraal - Schiphol Airport",
+                        "key": "PRODUCT_SUPPLEMENT",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-warning-contrast",
+                            "type": "warning"
+                        }
+                    }]
+                ]
+            },
+            "notes": [{
+                "value": "Toeslag",
+                "shortValue": "Toeslag",
+                "accessibilityValue": "Toeslag",
+                "key": "ZA",
+                "noteType": "ATTRIBUTE",
+                "isPresentationRequired": true
+            }, {
+                "value": "320",
+                "key": "T",
+                "noteType": "TICKET",
+                "routeIdxFrom": 6,
+                "routeIdxTo": 8,
+                "link": {
+                    "uri": "/api/v1/catalogue/intercity-direct"
+                },
+                "isPresentationRequired": false
+            }],
+            "stops": [{
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "name": "Breda",
+                "lat": 51.5955543518066,
+                "lng": 4.78000020980835,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T14:44:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:44:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "7",
+                "plannedDepartureTrack": "7",
+                "plannedArrivalTrack": "7",
+                "actualArrivalTrack": "7",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400530",
+                "uicCdCode": "118400530",
+                "name": "Rotterdam Centraal",
+                "lat": 51.9249992370605,
+                "lng": 4.46888875961304,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 6,
+                "plannedDepartureDateTime": "2026-08-26T15:11:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:11:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:07:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:07:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "12",
+                "plannedDepartureTrack": "12",
+                "plannedArrivalTrack": "12",
+                "actualArrivalTrack": "12",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400561",
+                "uicCdCode": "118400561",
+                "name": "Schiphol Airport",
+                "lat": 52.3094444274902,
+                "lng": 4.76194429397583,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 8,
+                "plannedDepartureDateTime": "2026-08-26T15:38:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:38:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:37:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:37:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1-2",
+                "plannedDepartureTrack": "1-2",
+                "plannedArrivalTrack": "1-2",
+                "actualArrivalTrack": "1-2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400061",
+                "uicCdCode": "118400061",
+                "name": "Amsterdam Zuid",
+                "lat": 52.338889,
+                "lng": 4.872356,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 9,
+                "plannedDepartureDateTime": "2026-08-26T15:46:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:46:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:44:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:44:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400194",
+                "uicCdCode": "118400194",
+                "name": "Duivendrecht",
+                "lat": 52.3233337402344,
+                "lng": 4.93638896942139,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 11,
+                "plannedDepartureDateTime": "2026-08-26T15:51:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:51:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:51:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:51:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "name": "Hilversum",
+                "lat": 52.2258338928223,
+                "lng": 5.18194437026978,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 17,
+                "plannedArrivalDateTime": "2026-08-26T16:06:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T16:06:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 16,
+            "crossPlatformTransfer": true,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#495463#TA#1#DA#260826#1S#1100942#1T#1444#LS#1100687#LT#1624#PU#784#RT#1#CA#ICD#ZE#1857#ZB#ICD 1857#PC#1#FR#1100942#FT#1444#TO#1100687#TT#1624#&train=1857&datetime=2026-08-26T14:44:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 82,
+            "actualDurationInMinutes": 82,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "1:22 u.",
+                "accessibilityValue": "1 uur en 22 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "recognizableDestination": "Schiphol Airport",
+            "distanceInMeters": 128175,
+            "ticketActions": [{
+                "type": "SUPPLEMENT",
+                "fromUicCode": "8400530",
+                "toUicCode": "8400561"
+            }]
+        }, {
+            "idx": "1",
+            "name": "SPR 4955",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Utrecht Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#501741#TA#2#DA#260826#1S#1101113#1T#1551#LS#1101280#LT#1635#PU#784#RT#1#CA#SPR#ZE#4955#ZB#SPR 4955#PC#3#FR#1101113#FT#1551#TO#1101280#TT#1635#",
+            "origin": {
+                "name": "Hilversum",
+                "rawLocationName": "Hilversum",
+                "lng": 5.18194437026978,
+                "lat": 52.2258338928223,
+                "countryCode": "NL",
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "stationCode": "HVS",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T16:18:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T16:18:00+0200",
+                "plannedTrack": "2",
+                "actualTrack": "2",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T16:20:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T16:20:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "exitSide": "RIGHT",
+                "checkinStatus": "CHECKOUT",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "4955",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Utrecht Centraal",
+                        "shortValue": "richting Utrecht Centraal",
+                        "accessibilityValue": "richting Utrecht Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "Geen tussenstops",
+                        "shortValue": "Geen tussenstops",
+                        "accessibilityValue": "Geen tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "Overstap op zelfde perron",
+                "accessibilityMessage": "Overstap op zelfde perron",
+                "type": "CROSS_PLATFORM",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400322",
+                "uicCdCode": "118400322",
+                "name": "Hilversum",
+                "lat": 52.2258338928223,
+                "lng": 5.18194437026978,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T16:18:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T16:18:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "name": "Hilversum Sportpark",
+                "lat": 52.2161102294922,
+                "lng": 5.18722200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedArrivalDateTime": "2026-08-26T16:20:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T16:20:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 4,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#501741#TA#2#DA#260826#1S#1101113#1T#1551#LS#1101280#LT#1635#PU#784#RT#1#CA#SPR#ZE#4955#ZB#SPR 4955#PC#3#FR#1101113#FT#1551#TO#1101280#TT#1635#&train=4955&datetime=2026-08-26T16:18:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 2,
+            "actualDurationInMinutes": 2,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "2 min.",
+                "accessibilityValue": "2 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "distanceInMeters": 1188
+        }],
+        "checksum": "5041fdb3_3",
+        "crowdForecast": "LOW",
+        "optimal": true,
+        "fareRoute": {
+            "routeId": "=JRsVmBGFd79+rw==",
+            "origin": {
+                "varCode": 131,
+                "name": "Breda"
+            },
+            "destination": {
+                "varCode": 570,
+                "name": "Hilversum Sportpark"
+            }
+        },
+        "fares": [{
+            "priceInCents": 4302,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 3442,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 1912,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 2581,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 1434,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 8604,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 4780,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 6884,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 3824,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 5162,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 2868,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 67990,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 40000,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 815880,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 479940,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }],
+        "fareLegs": [{
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION"
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION"
+            },
+            "operator": "NS",
+            "productTypes": ["TRAIN"],
+            "fares": [{
+                "priceInCents": 2390,
+                "priceInCentsExcludingSupplement": 2390,
+                "supplementInCents": 0,
+                "buyableTicketSupplementPriceInCents": 0,
+                "product": "OVCHIPKAART_ENKELE_REIS",
+                "travelClass": "SECOND_CLASS",
+                "discountType": "NO_DISCOUNT"
+            }],
+            "travelDate": "2026-08-26"
+        }],
+        "productFare": {
+            "priceInCents": 2710,
+            "priceInCentsExcludingSupplement": 2390,
+            "supplementInCents": 320,
+            "buyableTicketPriceInCents": 2710,
+            "buyableTicketPriceInCentsExcludingSupplement": 2390,
+            "buyableTicketSupplementPriceInCents": 320,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        },
+        "fareOptions": {
+            "isInternationalBookable": false,
+            "isInternational": false,
+            "isEticketBuyable": true,
+            "isPossibleWithOvChipkaart": true,
+            "isTotalPriceUnknown": false,
+            "supplementsBasedOnSelectedFare": [{
+                "supplementPriceInCents": 320,
+                "fromUICCode": "8400530",
+                "toUICCode": "8400561",
+                "link": {
+                    "uri": "/api/v1/catalogue/intercity-direct"
+                },
+                "supplementType": "ICD"
+            }]
+        },
+        "type": "NS",
+        "shareUrl": {
+            "uri": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400131%7CrequestedFromStation%3D8400131%7CtoStation%3D8400570%7CrequestedToStation%3D8400570%7CplannedFromTime%3D2026-08-26T14%3A44%3A00%2B02%3A00%7CplannedArrivalTime%3D2026-08-26T16%3A20%3A00%2B02%3A00%7CexcludeHighSpeedTrains%3Dfalse%7CshowLiftInfo%3Dfalse%7CsearchForAccessibleTrip%3Dfalse%7ClocalTrainsOnly%3Dfalse%7CdisabledTransportModalities%3DBUS%2CFERRY%2CTRAM%2CMETRO%7CtravelAssistance%3Dfalse%7CtripSummaryHash%3D2761210395"
+        },
+        "realtime": true,
+        "routeId": "=JRsVmBGFd79+rw==",
+        "modalityListItems": [{
+            "name": "Intercity direct",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "7",
+            "accessibilityName": "Intercity direct"
+        }, {
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "2",
+            "accessibilityName": "Sprinter"
+        }],
+        "labelListItems": [{
+            "label": "€ 3,20 toeslag",
+            "stickerType": "info"
+        }]
+    }, {
+        "idx": 4,
+        "uid": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:54:00+02:00|plannedArrivalTime=2026-08-26T16:27:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=178379337",
+        "ctxRecon": "arnu|fromStation=8400131|requestedFromStation=8400131|toStation=8400570|requestedToStation=8400570|plannedFromTime=2026-08-26T14:54:00+02:00|plannedArrivalTime=2026-08-26T16:27:00+02:00|excludeHighSpeedTrains=false|showLiftInfo=false|searchForAccessibleTrip=false|localTrainsOnly=false|disabledTransportModalities=BUS,FERRY,TRAM,METRO|travelAssistance=false|tripSummaryHash=178379337",
+        "sourceCtxRecon": "¶HKI¶T$A=1@O=Breda@L=1100815@a=128@$A=1@O='s-Hertogenbosch@L=1100856@a=128@$202608261454$202608261530$SPR 6650$$1$$$$$$§W$A=1@O='s-Hertogenbosch@L=1100856@a=128@$A=1@O='s-Hertogenbosch@L=1101032@a=128@$202608261530$202608261534$$$1$$$$$$§T$A=1@O='s-Hertogenbosch@L=1101032@a=128@$A=1@O=Utrecht Centraal@L=1100715@a=128@$202608261539$202608261605$IC 3554 $$1$$$$$$§W$A=1@O=Utrecht Centraal@L=1100715@a=128@$A=1@O=Utrecht Centraal@L=1101280@a=128@$202608261605$202608261609$$$1$$$$$$§T$A=1@O=Utrecht Centraal@L=1101280@a=128@$A=1@O=Hilversum Sportpark@L=1101277@a=128@$202608261611$202608261627$SPR 5754$$1$$$$$$¶KC¶#VE#2#CF#100#CA#0#CM#0#SICT#0#AM#16465#AM2#0#RT#31#¶KCC¶#VE#0#ERG#261#HIN#0#ECK#16734|16734|16827|16827|0|0|485|16725|5|0|10|0|0|-2147483648#¶KRCC¶#VE#1#MRTF#",
+        "plannedDurationInMinutes": 93,
+        "actualDurationInMinutes": 93,
+        "transfers": 2,
+        "status": "NORMAL",
+        "legs": [{
+            "idx": "0",
+            "name": "SPR 6650",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Arnhem Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#504260#TA#0#DA#260826#1S#1101072#1T#1428#LS#1100002#LT#1634#PU#784#RT#1#CA#SPR#ZE#6650#ZB#SPR 6650#PC#3#FR#1101072#FT#1428#TO#1100002#TT#1634#",
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T14:54:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T14:54:00+0200",
+                "plannedTrack": "5",
+                "actualTrack": "5",
+                "checkinStatus": "CHECKIN",
+                "notes": []
+            },
+            "destination": {
+                "name": "'s-Hertogenbosch",
+                "rawLocationName": "'s-Hertogenbosch",
+                "lng": 5.29362,
+                "lat": 51.69048,
+                "countryCode": "NL",
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "stationCode": "HT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:30:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:30:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "exitSide": "RIGHT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "6650",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Arnhem Centraal",
+                        "shortValue": "richting Arnhem Centraal",
+                        "accessibilityValue": "richting Arnhem Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "4 tussenstops",
+                        "shortValue": "4 tussenstops",
+                        "accessibilityValue": "4 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "stops": [{
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "name": "Breda",
+                "lat": 51.5955543518066,
+                "lng": 4.78000020980835,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T14:54:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T14:54:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "5",
+                "plannedDepartureTrack": "5",
+                "plannedArrivalTrack": "5",
+                "actualArrivalTrack": "5",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400251",
+                "uicCdCode": "118400251",
+                "name": "Gilze-Rijen",
+                "lat": 51.583610534668,
+                "lng": 4.92611122131348,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedDepartureDateTime": "2026-08-26T15:02:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:02:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:02:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:02:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "4",
+                "plannedDepartureTrack": "4",
+                "plannedArrivalTrack": "4",
+                "actualArrivalTrack": "4",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400598",
+                "uicCdCode": "118400598",
+                "name": "Tilburg Reeshof",
+                "lat": 51.5736122131348,
+                "lng": 4.99444437026978,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 2,
+                "plannedDepartureDateTime": "2026-08-26T15:06:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:06:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:06:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:06:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400594",
+                "uicCdCode": "118400594",
+                "name": "Tilburg Universiteit",
+                "lat": 51.564985,
+                "lng": 5.051778,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 3,
+                "plannedDepartureDateTime": "2026-08-26T15:10:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:10:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:10:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:10:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400597",
+                "uicCdCode": "118400597",
+                "name": "Tilburg",
+                "lat": 51.5605545043945,
+                "lng": 5.08361101150513,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 4,
+                "plannedDepartureDateTime": "2026-08-26T15:14:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:14:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T15:13:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:13:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "name": "'s-Hertogenbosch",
+                "lat": 51.69048,
+                "lng": 5.29362,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 5,
+                "plannedArrivalDateTime": "2026-08-26T15:30:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T15:30:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 4,
+            "punctuality": 83.3,
+            "crossPlatformTransfer": false,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#504260#TA#0#DA#260826#1S#1101072#1T#1428#LS#1100002#LT#1634#PU#784#RT#1#CA#SPR#ZE#6650#ZB#SPR 6650#PC#3#FR#1101072#FT#1428#TO#1100002#TT#1634#&train=6650&datetime=2026-08-26T14:54:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 36,
+            "actualDurationInMinutes": 36,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "36 min.",
+                "accessibilityValue": "36 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "transferTimeToNextLeg": 4,
+            "distanceInMeters": 41871
+        }, {
+            "idx": "1",
+            "name": "IC 3554",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Utrecht Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#499611#TA#0#DA#260826#1S#1100958#1T#1433#LS#1100715#LT#1605#PU#784#RT#1#CA#IC#ZE#3554#ZB#IC 3554 #PC#1#FR#1100958#FT#1433#TO#1100715#TT#1605#",
+            "origin": {
+                "name": "'s-Hertogenbosch",
+                "rawLocationName": "'s-Hertogenbosch",
+                "lng": 5.29362,
+                "lat": 51.69048,
+                "countryCode": "NL",
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "stationCode": "HT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T15:39:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T15:39:00+0200",
+                "plannedTrack": "3",
+                "actualTrack": "3",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Utrecht Centraal",
+                "rawLocationName": "Utrecht Centraal",
+                "lng": 5.11027765274048,
+                "lat": 52.0888900756836,
+                "countryCode": "NL",
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "stationCode": "UT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T16:05:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T16:05:00+0200",
+                "plannedTrack": "7",
+                "actualTrack": "7",
+                "exitSide": "RIGHT",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "3554",
+                "categoryCode": "IC",
+                "shortCategoryName": "IC",
+                "longCategoryName": "Intercity",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Intercity",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Intercity",
+                        "shortValue": "NS Intercity",
+                        "accessibilityValue": "NS Intercity",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Utrecht Centraal",
+                        "shortValue": "richting Utrecht Centraal",
+                        "accessibilityValue": "richting Utrecht Centraal",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "Geen tussenstops",
+                        "shortValue": "Geen tussenstops",
+                        "accessibilityValue": "Geen tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "9 min. overstaptijd",
+                "accessibilityMessage": "9 minuten overstaptijd",
+                "type": "TRANSFER_TIME",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400319",
+                "uicCdCode": "118400319",
+                "name": "'s-Hertogenbosch",
+                "lat": 51.69048,
+                "lng": 5.29362,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T15:39:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T15:39:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "3",
+                "plannedDepartureTrack": "3",
+                "plannedArrivalTrack": "3",
+                "actualArrivalTrack": "3",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "name": "Utrecht Centraal",
+                "lat": 52.0888900756836,
+                "lng": 5.11027765274048,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 8,
+                "plannedArrivalDateTime": "2026-08-26T16:05:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T16:05:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "7",
+                "plannedDepartureTrack": "7",
+                "plannedArrivalTrack": "7",
+                "actualArrivalTrack": "7",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "LOW",
+            "bicycleSpotCount": 6,
+            "punctuality": 83.3,
+            "crossPlatformTransfer": false,
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#499611#TA#0#DA#260826#1S#1100958#1T#1433#LS#1100715#LT#1605#PU#784#RT#1#CA#IC#ZE#3554#ZB#IC 3554 #PC#1#FR#1100958#FT#1433#TO#1100715#TT#1605#&train=3554&datetime=2026-08-26T15:39:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 26,
+            "actualDurationInMinutes": 26,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "26 min.",
+                "accessibilityValue": "26 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "transferTimeToNextLeg": 4,
+            "distanceInMeters": 47266
+        }, {
+            "idx": "2",
+            "name": "SPR 5754",
+            "travelType": "PUBLIC_TRANSIT",
+            "direction": "Leiden Centraal",
+            "partCancelled": false,
+            "cancelled": false,
+            "isAfterCancelledLeg": false,
+            "isOnOrAfterCancelledLeg": false,
+            "changePossible": true,
+            "alternativeTransport": false,
+            "journeyDetailRef": "HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#6681#TA#2#DA#260826#1S#1101280#1T#1611#LS#1100997#LT#1740#PU#784#RT#1#CA#SPR#ZE#5754#ZB#SPR 5754#PC#3#FR#1101280#FT#1611#TO#1100997#TT#1740#",
+            "origin": {
+                "name": "Utrecht Centraal",
+                "rawLocationName": "Utrecht Centraal",
+                "lng": 5.11027765274048,
+                "lat": 52.0888900756836,
+                "countryCode": "NL",
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "stationCode": "UT",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T16:11:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T16:11:00+0200",
+                "plannedTrack": "1",
+                "actualTrack": "1",
+                "checkinStatus": "NOTHING",
+                "notes": []
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION",
+                "plannedTimeZoneOffset": 120,
+                "plannedDateTime": "2026-08-26T16:27:00+0200",
+                "actualTimeZoneOffset": 120,
+                "actualDateTime": "2026-08-26T16:27:00+0200",
+                "plannedTrack": "2",
+                "actualTrack": "2",
+                "exitSide": "RIGHT",
+                "checkinStatus": "CHECKOUT",
+                "notes": []
+            },
+            "product": {
+                "productType": "Product",
+                "number": "5754",
+                "categoryCode": "SPR",
+                "shortCategoryName": "SPR",
+                "longCategoryName": "Sprinter",
+                "operatorCode": "NS",
+                "operatorName": "NS",
+                "operatorAdministrativeCode": 100,
+                "type": "TRAIN",
+                "displayName": "NS Sprinter",
+                "nameNesProperties": {
+                    "color": "text-body"
+                },
+                "iconNesProperties": {
+                    "color": "text-body",
+                    "icon": "train"
+                },
+                "notes": [
+                    [{
+                        "value": "NS Sprinter",
+                        "shortValue": "NS Sprinter",
+                        "accessibilityValue": "NS Sprinter",
+                        "key": "PRODUCT_NAME",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "richting Leiden Centraal via Weesp",
+                        "shortValue": "richting Leiden Centraal via Weesp",
+                        "accessibilityValue": "richting Leiden Centraal via Weesp",
+                        "key": "PRODUCT_DIRECTION",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }],
+                    [{
+                        "value": "2 tussenstops",
+                        "shortValue": "2 tussenstops",
+                        "accessibilityValue": "2 tussenstops",
+                        "key": "PRODUCT_INTERMEDIATE_STOPS",
+                        "noteType": "ATTRIBUTE",
+                        "isPresentationRequired": true,
+                        "nesProperties": {
+                            "color": "text-body"
+                        }
+                    }]
+                ]
+            },
+            "transferMessages": [{
+                "message": "6 min. overstaptijd",
+                "accessibilityMessage": "6 minuten overstaptijd",
+                "type": "TRANSFER_TIME",
+                "messageNesProperties": {
+                    "color": "text-default",
+                    "type": "informative"
+                }
+            }],
+            "stops": [{
+                "uicCode": "8400621",
+                "uicCdCode": "118400621",
+                "name": "Utrecht Centraal",
+                "lat": 52.0888900756836,
+                "lng": 5.11027765274048,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 0,
+                "plannedDepartureDateTime": "2026-08-26T16:11:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T16:11:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400620",
+                "uicCdCode": "118400620",
+                "name": "Utrecht Overvecht",
+                "lat": 52.1100006103516,
+                "lng": 5.12472200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 1,
+                "plannedDepartureDateTime": "2026-08-26T16:15:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T16:15:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T16:15:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T16:15:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "1",
+                "plannedDepartureTrack": "1",
+                "plannedArrivalTrack": "1",
+                "actualArrivalTrack": "1",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400327",
+                "uicCdCode": "118400327",
+                "name": "Hollandsche Rading",
+                "lat": 52.1777763366699,
+                "lng": 5.17916679382324,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 2,
+                "plannedDepartureDateTime": "2026-08-26T16:23:00+0200",
+                "plannedDepartureTimeZoneOffset": 120,
+                "actualDepartureDateTime": "2026-08-26T16:23:00+0200",
+                "actualDepartureTimeZoneOffset": 120,
+                "plannedArrivalDateTime": "2026-08-26T16:23:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T16:23:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "departureDelayInSeconds": 0,
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }, {
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "name": "Hilversum Sportpark",
+                "lat": 52.2161102294922,
+                "lng": 5.18722200393677,
+                "countryCode": "NL",
+                "notes": [],
+                "routeIdx": 3,
+                "plannedArrivalDateTime": "2026-08-26T16:27:00+0200",
+                "plannedArrivalTimeZoneOffset": 120,
+                "actualArrivalDateTime": "2026-08-26T16:27:00+0200",
+                "actualArrivalTimeZoneOffset": 120,
+                "actualDepartureTrack": "2",
+                "plannedDepartureTrack": "2",
+                "plannedArrivalTrack": "2",
+                "actualArrivalTrack": "2",
+                "arrivalDelayInSeconds": 0,
+                "cancelled": false,
+                "borderStop": false,
+                "passing": false
+            }],
+            "crowdForecast": "MEDIUM",
+            "shorterStock": false,
+            "journeyDetail": [{
+                "type": "TRAIN_XML",
+                "link": {
+                    "uri": "/api/v2/journey?id=HARP_MM-2|#VN#1#ST#1787136937#PI#0#ZI#6681#TA#2#DA#260826#1S#1101280#1T#1611#LS#1100997#LT#1740#PU#784#RT#1#CA#SPR#ZE#5754#ZB#SPR 5754#PC#3#FR#1101280#FT#1611#TO#1100997#TT#1740#&train=5754&datetime=2026-08-26T16:11:00+02:00"
+                }
+            }],
+            "reachable": true,
+            "plannedDurationInMinutes": 16,
+            "actualDurationInMinutes": 16,
+            "nesProperties": {
+                "color": "text-info",
+                "scope": "LEG_LINE",
+                "styles": {
+                    "type": "LineStyles",
+                    "dashed": false
+                }
+            },
+            "duration": {
+                "value": "16 min.",
+                "accessibilityValue": "16 minuten",
+                "nesProperties": {
+                    "color": "text-body"
+                }
+            },
+            "preSteps": [],
+            "postSteps": [],
+            "recognizableDestination": "Weesp",
+            "distanceInMeters": 15236
+        }],
+        "checksum": "22c0db1b_3",
+        "crowdForecast": "MEDIUM",
+        "punctuality": 83.3,
+        "optimal": false,
+        "fareRoute": {
+            "routeId": "=JRsVmBGFd75+qg==",
+            "origin": {
+                "varCode": 131,
+                "name": "Breda"
+            },
+            "destination": {
+                "varCode": 570,
+                "name": "Hilversum Sportpark"
+            }
+        },
+        "fares": [{
+            "priceInCents": 4302,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 3442,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 1912,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 2581,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 1434,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 8604,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 4780,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 6884,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 3824,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_20_PERCENT"
+        }, {
+            "priceInCents": 5162,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 2868,
+            "product": "OVCHIPKAART_RETOUR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "DISCOUNT_40_PERCENT"
+        }, {
+            "priceInCents": 67990,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 40000,
+            "product": "TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 815880,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "FIRST_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }, {
+            "priceInCents": 479940,
+            "product": "BUSINESS_CARD_TRAJECT_VRIJ_JAAR",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        }],
+        "fareLegs": [{
+            "origin": {
+                "name": "Breda",
+                "rawLocationName": "Breda",
+                "lng": 4.78000020980835,
+                "lat": 51.5955543518066,
+                "countryCode": "NL",
+                "uicCode": "8400131",
+                "uicCdCode": "118400131",
+                "stationCode": "BD",
+                "type": "STATION"
+            },
+            "destination": {
+                "name": "Hilversum Sportpark",
+                "rawLocationName": "Hilversum Sportpark",
+                "lng": 5.18722200393677,
+                "lat": 52.2161102294922,
+                "countryCode": "NL",
+                "uicCode": "8400570",
+                "uicCdCode": "118400570",
+                "stationCode": "HVSP",
+                "type": "STATION"
+            },
+            "operator": "NS",
+            "productTypes": ["TRAIN"],
+            "fares": [{
+                "priceInCents": 2390,
+                "priceInCentsExcludingSupplement": 2390,
+                "supplementInCents": 0,
+                "buyableTicketSupplementPriceInCents": 0,
+                "product": "OVCHIPKAART_ENKELE_REIS",
+                "travelClass": "SECOND_CLASS",
+                "discountType": "NO_DISCOUNT"
+            }],
+            "travelDate": "2026-08-26"
+        }],
+        "productFare": {
+            "priceInCents": 2390,
+            "priceInCentsExcludingSupplement": 2390,
+            "buyableTicketPriceInCents": 2390,
+            "buyableTicketPriceInCentsExcludingSupplement": 2390,
+            "product": "OVCHIPKAART_ENKELE_REIS",
+            "travelClass": "SECOND_CLASS",
+            "discountType": "NO_DISCOUNT"
+        },
+        "fareOptions": {
+            "isInternationalBookable": false,
+            "isInternational": false,
+            "isEticketBuyable": true,
+            "isPossibleWithOvChipkaart": true,
+            "isTotalPriceUnknown": false
+        },
+        "type": "NS",
+        "shareUrl": {
+            "uri": "https://www.ns.nl/rpx?ctx=arnu%7CfromStation%3D8400131%7CrequestedFromStation%3D8400131%7CtoStation%3D8400570%7CrequestedToStation%3D8400570%7CplannedFromTime%3D2026-08-26T14%3A54%3A00%2B02%3A00%7CplannedArrivalTime%3D2026-08-26T16%3A27%3A00%2B02%3A00%7CexcludeHighSpeedTrains%3Dfalse%7CshowLiftInfo%3Dfalse%7CsearchForAccessibleTrip%3Dfalse%7ClocalTrainsOnly%3Dfalse%7CdisabledTransportModalities%3DBUS%2CFERRY%2CTRAM%2CMETRO%7CtravelAssistance%3Dfalse%7CtripSummaryHash%3D178379337"
+        },
+        "realtime": true,
+        "routeId": "=JRsVmBGFd75+qg==",
+        "modalityListItems": [{
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "5",
+            "accessibilityName": "Sprinter"
+        }, {
+            "name": "Intercity",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "3",
+            "accessibilityName": "Intercity"
+        }, {
+            "name": "Sprinter",
+            "nameNesProperties": {
+                "color": "text-subtle",
+                "styles": {
+                    "type": "TextStyles",
+                    "strikethrough": false,
+                    "bold": false
+                }
+            },
+            "iconNesProperties": {
+                "color": "text-body",
+                "icon": "train"
+            },
+            "actualTrack": "1",
+            "accessibilityName": "Sprinter"
+        }]
+    }],
+    "scrollRequestBackwardContext": "harpwh_before_3778926254_3|OB|MTµ14µ16674µ16674µ16767µ16767µ0µ0µ485µ16670µ1µ0µ10µ0µ0µ-2147483648µ1µ2|PDHµ398076ae8175aa6e2da37a094bf59d51|RDµ26082026|RTµ135000|USµ0|RSµINIT",
+    "scrollRequestForwardContext": "harpwh_after_627927739_3|OF|MTµ14µ16734µ16734µ16827µ16827µ0µ0µ485µ16725µ5µ0µ10µ0µ0µ-2147483648µ1µ2|PDHµ398076ae8175aa6e2da37a094bf59d51|RDµ26082026|RTµ135000|USµ0|RSµINIT"
+}

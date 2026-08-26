@@ -1,0 +1,28 @@
+Name: harbour-treinplanner
+Summary: Plan train trips with Dutch Railways (NS) data
+Version: 0.1.0
+Release: 1
+Group: Applications/Communications
+License: MIT
+Sources:
+- '%{name}-%{version}.tar.bz2'
+Description: |
+  Search NS stations and plan trips between them. This Harbour build ships
+  with no bundled API key - add your own free NS API portal key in Settings.
+Configure: none
+Builder: qtc5
+PkgConfigBR:
+- sailfishapp
+- Qt5Quick
+- Qt5Qml
+- Qt5Core
+- Qt5Network
+- qdeclarative5-boostable
+Requires:
+- mapplauncherd-booster-silica-qt5
+- sailfishsilica-qt5
+Files:
+- '%{_datadir}/applications/%{name}.desktop'
+- '%{_datadir}/%{name}'
+- '%{_datadir}/icons/hicolor/*/apps/%{name}.png'
+- '%{_bindir}/%{name}'
