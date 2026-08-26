@@ -17,7 +17,7 @@ fi
 cd "$(dirname "$0")/.."
 
 curl -sSf \
-    -H "Subscription-Key: ${NS_API_KEY}" \
+    -H "Ocp-Apim-Subscription-Key: ${NS_API_KEY}" \
     'https://gateway.apiportal.ns.nl/reisinformatie-api/api/v2/stations' \
     -o data/stations_nl.json
 

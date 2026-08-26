@@ -29,7 +29,7 @@ void NsApiClient::sendRequest(const QString &path, const QUrlQuery &query,
     url.setQuery(query);
 
     QNetworkRequest request(url);
-    request.setRawHeader("Subscription-Key", key.toUtf8());
+    request.setRawHeader("Ocp-Apim-Subscription-Key", key.toUtf8());
 
     m_budgetTracker->recordRequest();
 

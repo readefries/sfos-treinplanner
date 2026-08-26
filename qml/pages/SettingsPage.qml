@@ -32,7 +32,7 @@ Page {
                 id: keyField
                 width: parent.width
                 label: qsTr("NS API key")
-                placeholderText: qsTr("Subscription-Key")
+                placeholderText: qsTr("Ocp-Apim-Subscription-Key")
                 text: apiKeyManager.userKey
                 EnterKey.iconSource: "image://theme/icon-m-enter-accept"
                 EnterKey.onClicked: focus = false

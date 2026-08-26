@@ -31,7 +31,7 @@ missing - packaging will fail without them), populated translations (the
 ## Authentication
 
 Register at the [NS API portal](https://apiportal.ns.nl/) for a free
-`Subscription-Key`. Every request needs it as a header.
+`Ocp-Apim-Subscription-Key`. Every request needs it as a header.
 
 ## NS API endpoints used
 

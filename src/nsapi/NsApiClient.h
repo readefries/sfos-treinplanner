@@ -10,7 +10,7 @@ class RequestBudgetTracker;
 
 // Thin wrapper around the NS Reisinformatie API. Every outgoing request goes
 // through sendRequest(), which is the single point where the
-// Subscription-Key header is attached and RequestBudgetTracker is updated -
+// Ocp-Apim-Subscription-Key header is attached and RequestBudgetTracker is updated -
 // this keeps budget accounting correct no matter how many call sites exist.
 class NsApiClient : public QObject
 {
