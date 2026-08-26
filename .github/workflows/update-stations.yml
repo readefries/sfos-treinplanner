@@ -1,0 +1,33 @@
+name: Update station list
+
+on:
+  schedule:
+    # Weekly, matching StationBootstrap's own >7-day staleness check.
+    - cron: '17 3 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-stations:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Fetch latest station list
+        env:
+          NS_API_KEY: ${{ secrets.NS_API_DEFAULT_KEY }}
+        run: ./scripts/fetch_stations.sh
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/stations_nl.json; then
+            echo "Station list unchanged, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stations_nl.json
+          git commit -m "chore: refresh bundled station list"
+          git push
